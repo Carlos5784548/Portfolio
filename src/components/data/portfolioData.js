@@ -1,5 +1,5 @@
 /**
- * @SofiDev Esto es JSDOC, si consideras que puede ser complicado solo borralo, es un comentario, no afectará en nada
+ *
  * @typedef PortafolioData
  * @property {string} imgSrc Url de la imagen
  * @property {string} title Titulo de la tarjeta
@@ -12,32 +12,21 @@
  */
 
 /**
- * @SofiDev Esto es JSDOC, si consideras que puede ser complicado solo borralo, es un comentario, no afectará en nada
  * @type {PortafolioData[]}
  */
 export const portafolioData = [
 	{
-		imgSrc: 'https://dt2sdf0db8zob.cloudfront.net/wp-content/uploads/2021/06/copy-of-the-6-best-restaurant-website-templates-1.png',
-		title: 'Restaurant',
-		skills: ['React', 'StyledComponents'],
+		imgSrc: 'public/img/screencapture-arematpuerto-ar-2024-11-26-16_35_11.png',
+		title: 'E-commerce-Aremat',
+		skills: ['Wordpress', 'Astro'],
 		descripcion:
-			'Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
-		demoURL: '',
-		repoURL: '',
-		anim: 'fade-right',
-	},
-	{
-		imgSrc: 'https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/299377097/original/7eb7dcebe244fcf5ad75d92b0969fc116946bd57/create-professional-amd-responsive-wordpress-website.jpg',
-		title: 'E-commerce',
-		skills: ['JavaScript', 'Bootstrap'],
-		descripcion:
-			' Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
-		demoURL: '',
-		repoURL: '',
+			' Aremat Puerto es un sitio web dedicado a la venta de materiales de construcción, diseñado para ofrecer a los usuarios una experiencia sencilla e intuitiva al buscar productos de alta calidad para proyectos de construcción y remodelación.',
+		demoURL: 'https://arematpuerto.com.ar/',
+		repoURL: 'https://arematpuerto.com.ar/',
 		anim: 'fade-up',
 		averageBrightness: 0.1,
 	},
-	{
+	/*{
 		imgSrc: 'https://i0.wp.com/themes.svn.wordpress.org/cafe-cafeteria/1.5.3/screenshot.png',
 		title: 'Coffe Store',
 		skills: ['React', 'CSS'],
@@ -76,7 +65,7 @@ export const portafolioData = [
 		demoURL: '',
 		repoURL: '',
 		anim: 'fade-right',
-	}
+	}*/
 ];
 
 const skillIcons = {
